@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AutomationExerciseAPI">
+    <listeners>
+        <listener class-name="Utilities.ReportListener"/>
+    </listeners>
+
+    <test name="AutomationExerciseAPI">
+        <classes>
+            <class name="tests.ProductTests"/>
+            <class name="tests.AuthorizationTests"/>
+        </classes>
+    </test>
+</suite>
